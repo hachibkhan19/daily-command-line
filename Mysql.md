@@ -6,7 +6,7 @@ mysql -u (username) -p (password)
 ```
 use database_name;
 ```
-## How to show all tables
+### How to show all tables
 ```
 show tables;
 ```

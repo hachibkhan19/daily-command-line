@@ -17,7 +17,7 @@
     - Replace database_name with the name of the database you want to restore.
     - Replace backup_file.sql with the name of your backup file.
       
-##  How to Backup MySQL DB using command line
+###  How to Backup MySQL DB using command line
 
   - 1st step: 
     - Open a Terminal:

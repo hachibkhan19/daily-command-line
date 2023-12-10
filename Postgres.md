@@ -19,3 +19,7 @@ SELECT pg_terminate_backend(pg_stat_activity.pid)
 ```
 DROP DATABASE exception_db;
 ```
+### How to Check the Status of Postgres Service?
+```
+sudo systemctl status postgresql
+```

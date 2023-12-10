@@ -45,3 +45,7 @@ use database_name;
 ```
 show tables;
 ```
+### How to Check the Status of mysql Service?
+```
+sudo systemctl status mysql
+```

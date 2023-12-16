@@ -6,3 +6,7 @@ git branch (branch_name)
 ```
 git branch -d (branch_name)
 ```
+#### To create a new branch and switch to it
+```
+git checkout -b new_branch_name
+```

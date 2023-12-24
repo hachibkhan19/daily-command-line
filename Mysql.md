@@ -53,4 +53,3 @@ sudo systemctl status mysql
 ```
 sudo systemctl restart mariadb
 ```
-

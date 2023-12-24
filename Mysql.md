@@ -49,3 +49,8 @@ show tables;
 ```
 sudo systemctl status mysql
 ```
+### How to restart MariaDB
+```
+sudo systemctl restart mariadb
+```
+

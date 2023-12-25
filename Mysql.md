@@ -60,22 +60,22 @@ sudo systemctl restart mariadb
   SET GLOBAL general_log_file = '/var/log/mysql/sql_log1.log';
 ```
 - Secondly enter a mariadb database container using this command
-  ```
-  docker exec -it (container id) bash
-  ```
-  - Thirdly enter this location
-    ```
-    root@a3f371b6277c:/var/log/mysql#
-    ```
-  - Fourthly create file using this command
-    ```
-    touch sql_log1.log (your log file name)
-    ```
-  - Fifth show this file using this command
-    ```
-    cat sql_log1.log (your log file name)
-    ```
-  - Delete all data from log file using this command
-    ```
-    echo "" > /var/log/mysql/sql_log1.log
-    ```
+```
+docker exec -it (container id) bash
+```
+- Thirdly enter this location
+```
+root@a3f371b6277c:/var/log/mysql#
+```
+- Fourthly create file using this command
+```
+touch sql_log1.log (your log file name)
+```
+- Fifth show this file using this command
+```
+cat sql_log1.log (your log file name)
+```
+- Delete all data from log file using this command
+```
+echo "" > /var/log/mysql/sql_log1.log
+```

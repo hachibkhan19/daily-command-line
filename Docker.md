@@ -1,3 +1,8 @@
+### To copy an SQL file from your local PC to a Docker container, you can use the docker cp
+```
+docker cp quantlio.sql(file_name)  a3f371b6277c(container_id):/var/lib/mysql/
+```
+
 ### Check if PostgreSQL is running: Verify if there is a PostgreSQL database running on your host machine that is already using port 5432. You can check this using the following command:
 ```
   sudo lsof -i :5432

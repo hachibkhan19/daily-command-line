@@ -1,3 +1,8 @@
+### How to check MySQL and MariaDB Version
+```
+mysql -V
+mariadb -V
+```
 ### Restoring a MySQL Database using command line:
   - 1st step: 
     - Open a Terminal:

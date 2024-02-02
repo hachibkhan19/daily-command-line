@@ -1,9 +1,11 @@
 ### How to install dbeaver in Ubuntu 22.04 LTS
+[How to install dbeaver in Ubuntu 22.04 LTS](https://dbeaver.io/download/)
+
 ```
 sudo snap install dbeaver-ce
 ```
 ### How to install MySQL in Ubuntu 22.04 LTS 
-[How to install MySQL in Ubuntu 22.04 LTS Documentation]([https://link-url-here.org](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04)
+[How to install MySQL in Ubuntu 22.04 LTS Documentation](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04)
 
 -1st update the package
   ```

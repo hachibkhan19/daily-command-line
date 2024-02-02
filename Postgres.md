@@ -26,41 +26,41 @@
 
 ### How To Install PostgreSQL on Ubuntu 22.04
   [How To Install PostgreSQL on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart)
-   -1st To install PostgreSQL, first refresh your server’s local package index:
+   - 1st To install PostgreSQL, first refresh your server’s local package index:
       ```
        sudo apt update
       ```
-   -2nd Then, install the Postgres package along with a -contrib package that adds some additional utilities and functionality:
+   - 2nd Then, install the Postgres package along with a -contrib package that adds some additional utilities and functionality:
        ```
        sudo apt install postgresql postgresql-contrib
        ```
-   -3rd run this command
+   - 3rd run this command
       ```
       sudo -i -u postgres
       ```
-   -4th Then you can access the Postgres prompt by running:
+   - 4th Then you can access the Postgres prompt by running:
       ```
       psql
       ```
-  -5th setup password for postgres User and Log in into the psql promt:
+  - 5th setup password for postgres User and Log in into the psql promt:
       ```
        sudo -u postgres psql
       ```
-  -6th Then in the psql console, change the password and quit
+  - 6th Then in the psql console, change the password and quit
       ```
       postgres=# \password postgres
       Enter new password: <new-password>
       postgres=# \q
       ```
-  -7th run this command for showing pg_hba.conf file
+  - 7th run this command for showing pg_hba.conf file
       ```
       postgres=# SHOW hba_file;
       ```
-  -8th open a new terminal and paste this sudo nano /etc/postgresql/14/main/pg_hba.conf
+  - 8th open a new terminal and paste this sudo nano /etc/postgresql/14/main/pg_hba.conf
       ```
       sudo nano /etc/postgresql/14/main/pg_hba.conf
       ```
-  -9th we find this type of value under a file
+  - 9th we find this type of value under a file
       ```
           default:
          local   all             postgres                             peer
@@ -69,7 +69,7 @@
       
          local   all             postgres                             md5
       ```
-  -10th Then restarted the postgres service with the command
+  - 10th Then restarted the postgres service with the command
       ```
       sudo service postgresql restart
       ```

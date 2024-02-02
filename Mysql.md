@@ -1,3 +1,43 @@
+### How to install dbeaver in Ubuntu 22.04 LTS
+```
+sudo snap install dbeaver-ce
+```
+### How to install MySQL in Ubuntu 22.04 LTS 
+[How to install MySQL in Ubuntu 22.04 LTS Documentation]([https://link-url-here.org](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04)
+
+-1st update the package
+  ```
+  sudo apt update
+  ```
+-2nd install the mysql-server package
+  ```
+  sudo apt install mysql-server
+  ```
+-3rd Ensure that the server is running using the systemctl start command:
+  ```
+  sudo systemctl start mysql.service
+  ```
+-4th open up the MySQL prompt:
+  ```
+  sudo mysql
+  ```
+-5th Then run the following ALTER USER command to change the root user’s authentication method to one that uses a password. The following example changes the authentication method to
+ ```
+  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+ ```
+-6th After making this change, exit the MySQL prompt:
+  ```
+  exit
+  ```
+-7th Run the security script with sudo:
+  ```
+  sudo mysql_secure_installation
+  ```
+-8th To authenticate as the root MySQL user using a password, run this command:
+  ```
+  mysql -u root -p
+  ```
+
 ### How to check MySQL and MariaDB Version
 ```
 mysql -V

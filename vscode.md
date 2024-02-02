@@ -1,4 +1,5 @@
 ### How to Install Visual Studio Code on Ubuntu 22.04
+[How to Install Visual Studio Code on Ubuntu 22.04](https://linuxhint.com/install-visual-studio-code-ubuntu22-04/)
   - Step 1: Update the system
     ```
     sudo apt update && sudo apt upgrade -y

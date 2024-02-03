@@ -1,3 +1,5 @@
+### HOW TO INSTALL ERPNEXT VERSION 14 IN UBUNTU 22.04
+
 ### Installing NVM on Ubuntu
   - step 1
   ```
@@ -9,8 +11,15 @@
    ```
      nvm install 18
    ```
-   
-# ERP
+### Install Redis Server
+  ```
+    sudo apt-get install redis-server
+  ```
+  - How to see Redis version
+    ```
+      redis-cli INFO server
+    ```
+    
 ### How to install bench
 ```
 pip3 install frappe-bench

@@ -1,3 +1,19 @@
+### How to enter mariadb docker container from local machine
+```
+  mysql -h 127.0.0.1 -P 3307 -u root -p
+```
+
+### How to enter local machine mysql
+```
+  mysql -h 127.0.0.1 -P 3306 -u root -p
+  or
+  mysql -u root -p
+```
+### How to install mariadb using docker and port 3307
+```
+  docker run -d --restart always -p 3307:3306 --name mariadb-container -e MYSQL_ROOT_PASSWORD=your_root_password mariadb:10.8
+```
+
 ### How to show mysql port in locally
   ```
     mysql> SHOW VARIABLES LIKE 'port';
@@ -5,6 +21,10 @@
     install netstat
     sudo apt install net-tools
     netstat -an | grep 3306
+
+    or
+    netstat -an | grep -w 3307
+
   ```
 
 ### How to install dbeaver in Ubuntu 22.04 LTS

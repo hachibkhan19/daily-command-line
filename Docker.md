@@ -2,44 +2,44 @@
 [How To Install and Use Docker on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
 
 - Step 1 update your existing list of packages:
-  ```
-    sudo apt update
-  ```
+    ```
+      sudo apt update
+    ```
   
 - Step 2 Next, install a few prerequisite packages which let apt use packages over HTTPS:
-  ```
-    sudo apt install apt-transport-https ca-certificates curl software-properties-common
-  ```
+    ```
+      sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    ```
   
 - Step 3 Then add the GPG key for the official Docker repository to your system:
-  ```
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gp
-  ```
+    ```
+      curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gp
+    ```
   
 - Step 4 Add the Docker repository to APT sources:
-  ```
-    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-  ```
+    ```
+      echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    ```
 
-  - Step 5 Update your existing list of packages again for the addition to be recognized:
+- Step 5 Update your existing list of packages again for the addition to be recognized:
 
   ```
     sudo apt update
   ```
-  - Step 6 Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
+- Step 6 Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
   ```
     apt-cache policy docker-ce
   ```
 
-  - Step 7 Finally, install Docker:
+- Step 7 Finally, install Docker:
   ```
    sudo apt install docker-ce
   ```
-  - Step 8 Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
+- Step 8 Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
   ```
    sudo systemctl status docker
   ```
-  - Step 9 To run docker commands without sudo
+- Step 9 To run docker commands without sudo
     ```
       sudo usermod -aG docker hachib-khan [your-current-username]
 

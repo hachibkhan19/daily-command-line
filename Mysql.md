@@ -1,3 +1,12 @@
+### How to show mysql port in locally
+  ```
+    mysql> SHOW VARIABLES LIKE 'port';
+    or
+    install netstat
+    sudo apt install net-tools
+    netstat -an | grep 3306
+  ```
+
 ### How to install dbeaver in Ubuntu 22.04 LTS
 [How to install dbeaver in Ubuntu 22.04 LTS](https://dbeaver.io/download/)
 

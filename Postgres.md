@@ -100,19 +100,19 @@ SELECT pg_terminate_backend(pg_stat_activity.pid)
 ```
 DROP DATABASE exception_db;
 ```
-## Here is the command to pull the PostgreSQL Docker image:
+### Here is the command to pull the PostgreSQL Docker image:
  ```
   docker pull postgres
  ```
-## You can set up a PostgreSQL Docker container with the name postgres_docker and expose it on port 5433. Here's an example command:
+### You can set up a PostgreSQL Docker container with the name postgres_docker and expose it on port 5433. Here's an example command:
 ```
  docker run --name postgres_docker -e POSTGRES_PASSWORD=mysecretpassword -p 5433:5432 -d postgres:latest
 ```
-## you can connect to PostgreSQL using the host localhost and port 5433:
+### you can connect to PostgreSQL using the host localhost and port 5433:
 ```
  psql -h localhost -p 5433 -U postgres -d postgres
 ```
-## Enter Docker postgres
+### Enter Docker postgres
 ```
  psql -U postgres
 ```

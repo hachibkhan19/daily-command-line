@@ -2,15 +2,18 @@
   ```
   ssh-keygen
   ```
-### Then change using cd 
+### Then Enter .ssh using this command
  ```
   cd ~/.ssh
  ```
-### then move .ssh and write ls and open id_rsa.pub
-###  then opne using cat or nano 
-### then paste in git or gitey
 
-### Corruption error in repo
+### Open id_rsa.pub using this command
+  ```
+    cat id_rsa.pub 
+  ```
+### then copy and paste in git or Gitea
+
+### Corruption error in the repository
 ```
 git clone -b dev --depth 1 git@git.inneedcloud.com.bd:InNeed/Quantlio-Stratus-UAT.git
 

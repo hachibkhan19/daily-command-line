@@ -9,10 +9,44 @@
   or
   mysql -u root -p
 ```
+
 ### How to install mariadb using docker and port 3307
 ```
   docker run -d --restart always -p 3307:3306 --name mariadb-container -e MYSQL_ROOT_PASSWORD=your_root_password mariadb:10.8
 ```
+### Install MariaDB in Ubuntu
+  ```
+    sudo apt update
+  ```
+### Install the MariaDB server package
+  ```
+    sudo apt install mariadb-server
+  ```
+### Once the installation is complete, you can start the MariaDB service:
+  ```
+    sudo systemctl start mariadb
+  ```
+### You might also want to enable the MariaDB service to start on boot:
+ ```
+  sudo systemctl enable mariadb
+ ```
+### You can verify that MariaDB has been installed and is running correctly by checking its status:
+  ```
+    sudo systemctl status mariadb
+  ```
+### Additionally, you can access the MariaDB shell to interact with the database:
+  ```
+    sudo mariadb
+  ```
+## How to set password for the root user in MariaDB.
+### First, ensure that the MariaDB service is running. If it's not already running, start it using:
+    ```
+    sudo systemctl start mariadb
+    ```
+### Then, run the mysql_secure_installation script:
+  ```
+    sudo mysql_secure_installation
+  ```
 
 ### How to show mysql port in locally
   ```

@@ -10,3 +10,10 @@ git branch -d (branch_name)
 ```
 git checkout -b new_branch_name
 ```
+### How to clone code from a specific branch from remote repo
+ ```
+  git clone -b dev git@git.inneedcloud.com.bd:InNeed/Quantlio_Stratus.git
+  or
+  git clone -b dev https://git.inneedcloud.com.bd/InNeed/Quantlio_Stratus.git
+
+ ```

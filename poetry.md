@@ -11,3 +11,6 @@
     pipx ensurepath
     sudo pipx ensurepath --global 
 ```
+### Install Poetry using pipx
+  - pipx install poetry
+    

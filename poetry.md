@@ -14,3 +14,7 @@
 ### Install Poetry using pipx
   - pipx install poetry
     
+### Install zsh
+  - sudo apt install zsh
+  -  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+

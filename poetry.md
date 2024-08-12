@@ -3,4 +3,11 @@
 
 ### You can use the poetry env use command to set the Python version for your project
 - poetry env use 3.12
-
+  
+### Installing pipx
+```
+    sudo apt update
+    sudo apt install pipx
+    pipx ensurepath
+    sudo pipx ensurepath --global 
+```

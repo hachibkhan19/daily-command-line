@@ -18,3 +18,20 @@
   - sudo apt install zsh
   -  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+### Poetry configuration zsh
+   - Step1:
+     ```
+       nano ~/.zshrc
+     ```
+   - Step2:Add the following line to include Poetry's installation path:
+     ```
+       export PATH="$HOME/.local/bin:$PATH"
+     ```
+   - Step3: Save the file and reload your Zsh configuration:
+     ```
+      source ~/.zshrc
+     ```
+   - Step4: Check if it works:
+     ```
+      poetry --version
+     ```

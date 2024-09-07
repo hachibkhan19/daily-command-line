@@ -116,3 +116,36 @@ DROP DATABASE exception_db;
 ```
  psql -U postgres
 ```
+
+### How to run Postgres in Docker
+  [How to run Postgres in Docker](https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/)
+  
+### How to run Postgres in Docker with specific version
+ ```
+ docker pull postgres:16.4
+ ```
+### How to run Postgres in Docker with latest version
+ ```
+ docker pull postgres:latest
+ ```
+
+### How to run Postgres Docker image with mapping localhost port 5432 and password setup and with container name and Runs the container in detached mode 
+ ```
+ docker run --name postgres-container -e POSTGRES_PASSWORD=inneed8294 -d -p 5433:5432 postgres:16.4
+ ```
+### or if has no postgres in local machine
+ ```
+ docker run --name postgres-container -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres:16.4
+ ```
+### To connect to the PostgreSQL instance in the Docker container, use:
+ ```
+  psql -h localhost -p 5433 -U postgres
+ ```
+### Use psql to find the configuration directory:
+  ```
+   psql -U postgres -c 'SHOW config_file;'  
+  ```
+### SHOW Port
+ ```
+ SHOW port;
+ ```

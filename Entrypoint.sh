@@ -1,4 +1,4 @@
-### Set Permissions for entrypoint.sh:
+# Set Permissions for entrypoint.sh:
   ```
   chmod +x entrypoint.sh
   ```

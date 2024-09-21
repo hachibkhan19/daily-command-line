@@ -85,10 +85,16 @@ then psql
 systemctl status postgresql
 ```
 
-## How to restore sql file in postgres db
-```
-pg_restore -O -x -h localhost -U postgres -p 5434 -d trmisdb trmis_backend_backup_16_October_2023_11_00__AM.sql
-```
+## How to restore sql file in postgres db Use pg_restore when you have a backup created using pg_dump
+ ```
+  pg_restore -O -x -h localhost -U postgres -p 5434 -d trmisdb trmis_backend_backup_16_October_2023_11_00__AM.sql
+ ```
+
+## How to restore sql file in postgres db Use psql when you have a plain SQL file
+ ```
+  psql -h localhost -U postgres -p 5432 -d trmis_prod_db -f trmis_prod_backup_20240919_184456.sql
+ ```
+
 ## There is 1 other session using the database.database "exception_db" is being accessed by other users
 ### 1st step
 ```

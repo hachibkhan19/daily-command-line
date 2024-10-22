@@ -165,8 +165,6 @@ DROP DATABASE exception_db;
   4. Choose a file format like CSV
   5. Click OK to export the data.
 
-
-
-
+![Screenshot from 2024-10-22 19-48-15](https://github.com/user-attachments/assets/084be612-024a-41cb-9fc0-4000b5867f34)
 
 

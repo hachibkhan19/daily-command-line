@@ -170,12 +170,14 @@ DROP DATABASE exception_db;
 
 ![Screenshot from 2024-10-22 19-49-00](https://github.com/user-attachments/assets/6691e6b9-1831-4ddb-8895-bac9abd146ae)
 
+### Step 2: Import the Data into the Target Database
+  1. Now, connect to the target database (the new database) in pgAdmin.
+  2. Right-click on the option_settings table and choose Import/Export.
+  3. Under Filename, select the CSV file exported earlier.
+  4. Set Format to CSV.
+  5. Click OK to start importing. 
 
 ![Screenshot from 2024-10-22 19-49-13](https://github.com/user-attachments/assets/ee0e5756-a2b5-4538-926a-7e1fc52dffa2)
-
-
-
-
 
 ![Screenshot from 2024-10-22 19-51-01](https://github.com/user-attachments/assets/f7213735-0eb8-4e26-ac87-485b7154b2f9)
 

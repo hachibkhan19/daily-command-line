@@ -155,3 +155,18 @@ DROP DATABASE exception_db;
  ```
  SHOW port;
  ```
+
+### To transfer data from one table to another table such as (option_settings) table in one PostgreSQL database to another database's option_settings table using pgAdmin and PostgreSQL, you can follow these steps:
+
+### Step 1: Export the Data from the Source Database
+  1. Open pgAdmin and connect to the source database (where the data is stored).
+  2. Navigate to the option_settings table in the Object Browser.
+  3. Right-click on the option_settings table and choose Export from the context menu.
+  4. Choose a file format like CSV
+  5. Click OK to export the data.
+
+
+
+
+
+

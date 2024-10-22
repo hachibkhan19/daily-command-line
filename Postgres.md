@@ -175,11 +175,13 @@ DROP DATABASE exception_db;
   2. Right-click on the option_settings table and choose Import/Export.
   3. Under Filename, select the CSV file exported earlier.
   4. Set Format to CSV.
-  5. Click OK to start importing. 
+  5. Click OK to start importing.
+
+![Screenshot from 2024-10-22 19-51-01](https://github.com/user-attachments/assets/f7213735-0eb8-4e26-ac87-485b7154b2f9)
 
 ![Screenshot from 2024-10-22 19-49-13](https://github.com/user-attachments/assets/ee0e5756-a2b5-4538-926a-7e1fc52dffa2)
 
-![Screenshot from 2024-10-22 19-51-01](https://github.com/user-attachments/assets/f7213735-0eb8-4e26-ac87-485b7154b2f9)
+
 
 
 

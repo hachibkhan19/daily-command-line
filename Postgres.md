@@ -168,3 +168,16 @@ DROP DATABASE exception_db;
 ![Screenshot from 2024-10-22 19-48-15](https://github.com/user-attachments/assets/084be612-024a-41cb-9fc0-4000b5867f34)
 
 
+![Screenshot from 2024-10-22 19-49-00](https://github.com/user-attachments/assets/6691e6b9-1831-4ddb-8895-bac9abd146ae)
+
+
+![Screenshot from 2024-10-22 19-49-13](https://github.com/user-attachments/assets/ee0e5756-a2b5-4538-926a-7e1fc52dffa2)
+
+
+
+
+
+![Screenshot from 2024-10-22 19-51-01](https://github.com/user-attachments/assets/f7213735-0eb8-4e26-ac87-485b7154b2f9)
+
+
+

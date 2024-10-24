@@ -29,3 +29,8 @@
 shift tab
 ```
 
+### If you want to indent or move all code back by one tab (decrease indentation) in most code editors, you can use the following shortcuts:
+```
+  Select all the code using Ctrl + A.
+  Press Shift + Tab to move all code back by one tab (unindent).
+```

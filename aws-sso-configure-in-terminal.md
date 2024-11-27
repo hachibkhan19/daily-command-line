@@ -40,3 +40,21 @@
   ```
   export AWS_REGION=us-east-1
   ```
+## How To show aws credentials
+  ```
+  cat ~/.aws/credentials 
+  ``` 
+## How To update aws credentials
+  ```
+  sudo nano ~/.aws/credentials
+  ```
+## How To show aws config file
+  ```
+    cat ~/.aws/config
+  ```
+
+## How To update aws config file
+  ```
+    sudo nano ~/.aws/config
+  ``` 
+

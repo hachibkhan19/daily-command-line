@@ -11,3 +11,7 @@
 ### Single Responsibility Principle (SRP)
   1. The Single Responsibility Principle (SRP) states that a class should have only one reason to change, or in other words, it should have only one responsibility. This means that a class should have only one job to do, and it should do it well.
   2. If a class has too many responsibilities, it can become hard to understand, maintain, and modify.
+### Single Responsibility Principle (SRP)
+  1. একটা ক্লাসের একটাই কাজ থাকবে।
+  2. একটা ক্লাস অনেক কাজ করলে সেটা মেইনটেইন করা কঠিন হয়।
+  3. উদাহরণ: যদি User ক্লাস থাকে, তাহলে সেটা শুধু ইউজারের তথ্য ম্যানেজ করবে। ইমেইল সেন্ড বা ডাটাবেসের কাজের জন্য আলাদা ক্লাস বানানো উচিত, যেমন EmailService বা UserRepository।

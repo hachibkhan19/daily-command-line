@@ -1,3 +1,9 @@
 ### What is SOLID ?
 ## The SOLID principles are a set of guidelines for writing high-quality, maintainable, and scalable software
 ## SOLID নীতিগুলো প্রোগ্রামিংয়ের এমন কিছু গাইডলাইন, যেগুলো কোডকে সহজ, মেইনটেইনেবল, এবং স্কেলেবল করে। এগুলোকে মনে রাখা সহজ এবং এগুলো ফলো করলে কোড ভালো ডিজাইন করা যায়।
+## SOLID Stands For
+  1. Single Responsibility Principle (SRP)
+  2. Open-Closed Principle (OCP)
+  3. Liskov Substitution Principle (LSP)
+  4. Interface Segregation Principle (ISP)
+  5. Dependency Inversion Principle (DIP)

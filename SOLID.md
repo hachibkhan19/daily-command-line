@@ -9,3 +9,5 @@
   5. Dependency Inversion Principle (DIP)
      
 ### Single Responsibility Principle (SRP)
+  1. The Single Responsibility Principle (SRP) states that a class should have only one reason to change, or in other words, it should have only one responsibility. This means that a class should have only one job to do, and it should do it well.
+  2. If a class has too many responsibilities, it can become hard to understand, maintain, and modify.

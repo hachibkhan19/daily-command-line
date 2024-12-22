@@ -40,10 +40,10 @@
 
 ### Dependency Inversion Principle (DIP)
   `1. The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules, but both should depend on abstractions. Abstractions should not depend on details – details should depend on abstractions.
-  2. This principle aims to reduce coupling between modules, increase modularity, and make the code easier to maintain, test, and extend.
-  3. কোড কনক্রিটের উপর না, অ্যাবস্ট্রাকশনের উপর নির্ভর করবে।
-  4. বড় ক্লাস বা নির্দিষ্ট কিছু ডিপেন্ডেন্সি না করে, অ্যাবস্ট্রাকশন (ইন্টারফেস) ব্যবহার করা ভালো।
-  5. উদাহরণ: PaymentProcessor যদি সরাসরি PayPalService ব্যবহার করে, তাহলে পরিবর্তন কঠিন হবে। এর বদলে PaymentService নামে একটা ইন্টারফেস ব্যবহার করলে সেটার উপর নির্ভরশীল থাকা ভালো।
+   2. This principle aims to reduce coupling between modules, increase modularity, and make the code easier to maintain, test, and extend.
+   3. কোড কনক্রিটের উপর না, অ্যাবস্ট্রাকশনের উপর নির্ভর করবে।
+   4. বড় ক্লাস বা নির্দিষ্ট কিছু ডিপেন্ডেন্সি না করে, অ্যাবস্ট্রাকশন (ইন্টারফেস) ব্যবহার করা ভালো।
+   5. উদাহরণ: PaymentProcessor যদি সরাসরি PayPalService ব্যবহার করে, তাহলে পরিবর্তন কঠিন হবে। এর বদলে PaymentService নামে একটা ইন্টারফেস ব্যবহার করলে সেটার উপর নির্ভরশীল থাকা ভালো।
 
 
 

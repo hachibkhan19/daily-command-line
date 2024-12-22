@@ -15,3 +15,7 @@
   1. একটা ক্লাসের একটাই কাজ থাকবে।
   2. একটা ক্লাস অনেক কাজ করলে সেটা মেইনটেইন করা কঠিন হয়।
   3. উদাহরণ: যদি User ক্লাস থাকে, তাহলে সেটা শুধু ইউজারের তথ্য ম্যানেজ করবে। ইমেইল সেন্ড বা ডাটাবেসের কাজের জন্য আলাদা ক্লাস বানানো উচিত, যেমন EmailService বা UserRepository।
+
+### Open-Closed Principle (OCP)
+  1. The Open-Closed Principle (OCP) states that software entities (classes, modules, functions, and so on) should be open for extension but closed for modification. This means that the behavior of a software entity can be extended without modifying its source code.
+  2. The OCP is essential because it promotes software extensibility and maintainability. By allowing software entities to be extended without modification, developers can add new functionality without the risk of breaking existing code. This results in code that is easier to maintain, extend, and reuse.

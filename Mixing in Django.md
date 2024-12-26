@@ -25,3 +25,8 @@ Mixins allow you to write cleaner, modular, and reusable code by encapsulating c
      ```
 In this example, LoginRequiredMixin ensures that the user must be logged in before they can access the DashboardView. This functionality is reusable and can be added to any view where login is required.
 
+### Django তে Mixing কি?
+Django তে mixins হলো এমন একটি ক্লাস যা নির্দিষ্ট কার্যকলাপ বা ফাংশনালিটি প্রদান করে, যা একাধিক ক্লাসে শেয়ার করা যেতে পারে, সাধারণত ভিউগুলিতে কোডের পুনরাবৃত্তি কমাতে এবং কোডের পুনঃব্যবহারযোগ্যতা বাড়াতে ব্যবহৃত হয়। মিক্সিন সাধারণত ছোট ক্লাস হয় যা অন্য ক্লাসে একটি নির্দিষ্ট কার্যকলাপ যুক্ত করে, এবং বড়, আরও জটিল কার্যকলাপ তৈরিতে অন্যান্য ক্লাসের সাথে একত্রিত হতে ব্যবহৃত হয়।
+
+Mixins আপনাকে ক্লিন, মডুলার এবং পুনঃব্যবহারযোগ্য কোড লেখার সুযোগ দেয়, যেখানে সাধারণ কার্যকলাপ ছোট, ব্যবস্থাপনাযোগ্য টুকরোতে বিভক্ত করা হয়।
+

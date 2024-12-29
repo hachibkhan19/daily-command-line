@@ -53,11 +53,11 @@ say_hello()
 ## উদাহরণ 2
   ```
     def smart_div(fun):
-    def inner(a, b):
-        if a < b:
-            a, b = b, a  # যদি a ছোট হয় b এর চেয়ে, তাহলে তাদের অদল-বদল করা হবে।
-        return fun(a, b)  # মূল ফাংশন `fun` কল করা হচ্ছে।
-    return inner
+      def inner(a, b):
+          if a < b:
+              a, b = b, a  # যদি a ছোট হয় b এর চেয়ে, তাহলে তাদের অদল-বদল করা হবে।
+          return fun(a, b)  # মূল ফাংশন `fun` কল করা হচ্ছে।
+      return inner
 
     @smart_div
     def div(a, b):

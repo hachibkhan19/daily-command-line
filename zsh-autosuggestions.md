@@ -1,8 +1,17 @@
+### Install Oh My Zsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ### Z Shell auto suggestions and highlighting
 
 ### Step 1 Open nano ~/.zshrc
 ```
 nano ~/.zshrc
+```
+### Save and reload the configuration:
+```
+source ~/.zshrc
 ```
 ### Then Copy and Paste
 ```

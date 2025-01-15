@@ -1,7 +1,17 @@
+### To install Zsh (Z Shell) on your system, follow these steps:
+  ```
+    sudo apt update && sudo apt upgrade -y
+  ```
+
+### Step 2: Install Zsh
+  ```
+    sudo apt install zsh -y
+  ```
+
 ### Install Oh My Zsh
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
+  ```
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ```
 
 ### Z Shell auto suggestions and highlighting
 
@@ -125,9 +135,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 ```
 ### step3: Clone 
-```
-  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
-```
+  ```
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+  ```
 
 ### step4: Clone 
 ```

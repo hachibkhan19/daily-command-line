@@ -60,4 +60,13 @@ You should see the version number of pipenv.
 * With pipenv, when you use the pipenv shell command, it automatically creates a virtual environment and activates it at the same time. This removes the need for manually activating the environment, as is required with venv or virtualenv. Additionally, pipenv is integrated with pip, which makes managing dependencies seamless.
 * pipenv ব্যবহার করলে, pipenv shell কমান্ড দিলে এটি স্বয়ংক্রিয়ভাবে ভার্চুয়াল এনভায়রনমেন্ট তৈরি করে এবং সেটি সঙ্গে সঙ্গে অ্যাক্টিভেটও করে। venv বা virtualenv-এর মতো ম্যানুয়ালি অ্যাক্টিভেট করার দরকার হয় না। পাশাপাশি, pipenv-এ pip সংযুক্ত থাকায় ডিপেনডেন্সি ম্যানেজমেন্ট অনেক সহজ হয়ে যায়।
 
+### Generate Pipfile and Pipfile.lock from requirements.txt:
+* Create and activate the virtual environment: Use the following command to create and activate a virtual environment with pipenv:
+```
+   pipenv shell
+```
+* Generate Pipfile and Pipfile.lock from requirements.txt: Now, run this command to install the dependencies from your existing requirements.txt and create the Pipfile and Pipfile.lock:
+```
+   pipenv install -r requirements.txt
+```
 

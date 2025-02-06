@@ -13,10 +13,12 @@ Step 3: Enable two factor authentication by typing “2 step verification” on 
 ![Screenshot from 2025-02-06 10-48-29](https://github.com/user-attachments/assets/ef45b9c5-c989-4c6d-9258-3533f8bfe6f1)
 
 
-![Screenshot from 2025-02-06 10-49-45](https://github.com/user-attachments/assets/d94030e4-0c08-4680-bab8-8a16a2e5af24)
+
 
     
 Step 4: After enabling 2FA, type “App passwords” on the search bar.
+
+![Screenshot from 2025-02-06 10-49-45](https://github.com/user-attachments/assets/d94030e4-0c08-4680-bab8-8a16a2e5af24)
 
 ![Screenshot from 2025-02-06 10-50-29](https://github.com/user-attachments/assets/9864db6a-b733-4c59-a9c6-3a0e673d3515)
 

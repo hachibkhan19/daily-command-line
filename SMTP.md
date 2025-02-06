@@ -11,10 +11,6 @@
 Step 3: Enable two factor authentication by typing “2 step verification” on the search bar.
 
 ![Screenshot from 2025-02-06 10-48-29](https://github.com/user-attachments/assets/ef45b9c5-c989-4c6d-9258-3533f8bfe6f1)
-
-
-
-
     
 Step 4: After enabling 2FA, type “App passwords” on the search bar.
 
@@ -31,14 +27,14 @@ Step 5:
     Step 6: Generate App Password
 ![Screenshot from 2025-02-06 10-55-53](https://github.com/user-attachments/assets/0d3a611f-5f80-4ee1-b151-638817bab9cc)
 
-  Step 7: 
-    ```
-        # Email settings for sending email using Gmail SMTP
-        EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-        EMAIL_HOST = 'smtp.gmail.com'
-        EMAIL_PORT = 587
-        EMAIL_USE_TLS = True
-        EMAIL_HOST_USER = 'hachibkhancse12@gmail.com'  # Replace with your Gmail address
-        EMAIL_HOST_PASSWORD = 'ybxn rqzg jajh ehmr'  # Use your app password, not Gmail password
-        DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-    ```
+### Step 7 
+```
+    # Email settings for sending email using Gmail SMTP
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_HOST = 'smtp.gmail.com'
+    EMAIL_PORT = 587
+    EMAIL_USE_TLS = True
+    EMAIL_HOST_USER = 'hachibkhancse12@gmail.com'  # Replace with your Gmail address
+    EMAIL_HOST_PASSWORD = 'ybxn rqzg jajh ehmr'  # Use your app password, not Gmail password
+    DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+```

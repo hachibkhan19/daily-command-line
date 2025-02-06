@@ -5,7 +5,7 @@
     
 ![Screenshot](https://github.com/user-attachments/assets/fe49d835-6e07-4134-a522-272f2598041d)
 
-    ![Screenshot from 2025-02-06 10-48-40](https://github.com/user-attachments/assets/9bbaed2f-8606-49f4-9438-4dc66b02124d)
+![Screenshot from 2025-02-06 10-48-40](https://github.com/user-attachments/assets/9bbaed2f-8606-49f4-9438-4dc66b02124d)
 
 
     Step 3: Enable two factor authentication by typing “2 step verification” on the search bar.

@@ -33,12 +33,12 @@ Step 5:
 
   Step 7: 
     ```
-    # Email settings for sending email using Gmail SMTP
-    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_HOST = 'smtp.gmail.com'
-    EMAIL_PORT = 587
-    EMAIL_USE_TLS = True
-    EMAIL_HOST_USER = 'hachibkhancse12@gmail.com'  # Replace with your Gmail address
-    EMAIL_HOST_PASSWORD = 'ybxn rqzg jajh ehmr'  # Use your app password, not Gmail password
-    DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+        # Email settings for sending email using Gmail SMTP
+        EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+        EMAIL_HOST = 'smtp.gmail.com'
+        EMAIL_PORT = 587
+        EMAIL_USE_TLS = True
+        EMAIL_HOST_USER = 'hachibkhancse12@gmail.com'  # Replace with your Gmail address
+        EMAIL_HOST_PASSWORD = 'ybxn rqzg jajh ehmr'  # Use your app password, not Gmail password
+        DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
     ```
